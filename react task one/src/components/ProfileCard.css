@@ -3,8 +3,8 @@
   padding: 25px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -47,4 +47,25 @@ p {
   overflow-y: auto;
   padding-right: 5px;
   line-height: 1.5;
+}
+
+/* Contact Button */
+.contact-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #00ffbf;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(5px);
+}
+
+.contact-button:hover {
+  background-color: #00ffbf;
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffbf;
 }
